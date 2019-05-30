@@ -168,7 +168,7 @@ public class UnidadeCondominial implements Serializable{
 
     @Override
     public String toString() {
-        return "UnidadeCondominial{" + "id=" + id + ", descricao=" + descricao + ", numeroQuarto=" + numeroQuarto + ", condominio=" + condominio + '}';
+        return "UnidadeCondominial{" + "id=" + id + ", descricao=" + descricao + ", numeroQuarto=" + numeroQuarto+'}';
     }
     
     public void adicionarProprietario(Pessoa p){

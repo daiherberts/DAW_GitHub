@@ -161,18 +161,18 @@ public class Aluguel implements Serializable{
         return true;
     }
 
-    /*@Override
-    public String toString() {
-        return "Aluguel{" + "id= " + id + ", valor= " + valor + ", inicioContrato= " + inicioContrato + ", fimContrato= " + fimContrato + ", diaVencimento= " + diaVencimento + ", locatario= " + locatario + ", uc= " + uc + '}';
-    }*/
 
-    @Override //OK
-    public String toString() {
-        return "Aluguel{" + "id=" + id + ", valor=" + valor + ", locatario=" + locatario + ", uc=" + uc + '}';
-    }
+ 
+    
+    
     
     public List<Mensalidade> getMensalidade() {
         return mensalidade;
+    }
+
+    @Override
+    public String toString() {
+        return "Aluguel{" + "id=" + id + ", valor=" + valor + ", diaVencimento=" + diaVencimento + ", locatario=" + locatario + ", uc=" + uc + '}';
     }
 
     public void setMensalidade(List<Mensalidade> mensalidade) {
